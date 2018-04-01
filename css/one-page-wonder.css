@@ -40,6 +40,15 @@ p {
   opacity: 0.9;
 }
 
+.col-lg-3 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.col-lg-3:hover .overlay {
+  opacity: 0.9;
+}
+
 .text {
   color: black;
   font-size: 16px;
@@ -49,6 +58,61 @@ p {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.fancy-collapse-panel .panel-default > .panel-heading {
+padding: 0;
+
+}
+.fancy-collapse-panel .panel-heading a {
+padding: 12px 35px 12px 15px;
+display: inline-block;
+width: 100%;
+background-color: #00B2C3;
+color: #ffffff;
+position: relative;
+text-decoration: none;
+}
+.fancy-collapse-panel .panel-heading a:after {
+font-family: "FontAwesome";
+content: "\f147";
+position: absolute;
+right: 20px;
+font-size: 20px;
+font-weight: 700;
+top: 50%;
+line-height: 1;
+margin-top: -10px;
+}
+
+.fancy-collapse-panel .panel-heading a.collapsed:after {
+content: "\f196";
+}
+
+.fancy-collapse-panel .heading2 a {
+background-color: #FDC027;
+}
+
+.fancy-collapse-panel .heading3 a {
+background-color: #F88660;
+}
+
+.fancy-collapse-panel .heading4 a {
+background-color: #6FD176;
+}
+
+.fancy-collapse-panel .heading5 a {
+background-color: #6285A5;
+}
+
+.padded {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.smpadded {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .btn-xl {

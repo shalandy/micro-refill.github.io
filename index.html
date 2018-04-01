@@ -3,6 +3,9 @@
 
   <head>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -19,6 +22,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
   </head>
 
@@ -50,7 +57,7 @@
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-2">
             <div class="p-5">
-              <img class="img-fluid rounded-circle" src="img/microwave_hand.gif" alt="">
+              <img class="img-fluid" src="img/microwave_hand.gif" alt="">
             </div>
           </div>
           <div class="col-lg-6 order-lg-1">
@@ -65,75 +72,269 @@
       </div>
     </section>
 
-    <section>
-      <div class="container">
-        <div class="p-5">
-          <h2 class="display-4" style="text-align:center">Benefits</h2>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-lg-4 order-lg-1">
-            <img src="img/microwave_benefits-01.png" class="image">
-            <div class="overlay">
-                <div class="text">Alleviates food insecurity and develops more economical food habits</div>
-              </div>
-          </div>
-          <div class="col-lg-4 order-lg-3">
-            <img src="img/microwave_benefits-02.png"  class="image">
-            <div class="overlay">
-                <div class="text">Faster than buying and ordering food on or off-campus</div>
-              </div>
-          </div>
-          <div class="col-lg-4 order-lg-2">
-            <img src="img/microwave_benefits-03.png"  class="image">
-            <div class="overlay">
-                <div class="text">Bringing your own food makes it easier to manage your diet</div>
-              </div>
-          </div>
-        </div>
-        <div class="p-5">
-          <h2 class="display-4" style="text-align:center"></h2>
-        </div>
-      </div>
-    </section>
+    <div class="panel-group">
 
-    <section>
-      <div class="container">
-        <div class="p-5">
-          <h2 class="display-4" style="text-align:center">Campus Awareness</h2>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-1">
-            <img src="img/microwave_chart-01.png" class="image">
-          </div>
-          <div class="col-lg-6 order-lg-2">
-            <img src="img/microwave_chart-02.png"  class="image">
-          </div>
-        </div>
-        <h2> </h2>
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="p-5">
-          <h2 class="display-4" style="text-align:center">Campus Accessibility</h2>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-lg-6 order-lg-1">
-            <img src="img/microwave_map.png" class="image">
-          </div>
-          <div class="col-lg-6 order-lg-2">
-            <div class="p-5">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem,
-                ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
-                <a href="https://food.berkeley.edu/foodscape/map-gallery/geographic-map/" class="btn btn-primary btn-xl rounded-pill mt-5">See Full Map</a>
+  <!-- Section 1 -->
+  <div class="fancy-collapse-panel">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title" style="text-align:center">
+        <a data-toggle="collapse" href="#collapse1" class="display-4">Benefits</a>
+      </h2>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-4 order-lg-1">
+              <img src="img/microwave_benefits-01.png" class="image">
+              <div class="overlay">
+                  <div class="text">Alleviates food insecurity and develops more economical food habits</div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-lg-3">
+              <img src="img/microwave_benefits-02.png"  class="image">
+              <div class="overlay">
+                  <div class="text">Faster than buying and ordering food on or off-campus</div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-lg-2">
+              <img src="img/microwave_benefits-03.png"  class="image">
+              <div class="overlay">
+                  <div class="text">Bringing your own food makes it easier to manage your diet</div>
+                </div>
             </div>
           </div>
         </div>
-        <h2> </h2>
       </div>
-    </section>
+    </div>
+  </div>
+
+<!-- Section 2 -->
+  <div class="panel panel-default">
+    <div class="panel-heading heading2">
+      <h2 class="panel-title" style="text-align:center">
+        <a data-toggle="collapse" href="#collapse2" class="display-4">Campus Awareness</a>
+      </h2>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 order-lg-1">
+              <div class="p-5">
+                <h2 style="text-align:center"> Have you used campus microwaves before? </h2>
+              </div>
+              <img src="img/microwave_chart-01.png" class="image">
+            </div>
+            <div class="col-lg-6 order-lg-2">
+              <div class="p-5">
+                <h2 style="text-align:center"> Would you use them if they were more accessible? </h2>
+              </div>
+              <img src="img/microwave_chart-02.png"  class="image">
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+      <div class="panel panel-default">
+        <div class="panel-heading heading3">
+          <h2 class="panel-title" style="text-align:center">
+            <a data-toggle="collapse" href="#collapse3" class="display-4">Campus Accessibility</a>
+          </h2>
+        </div>
+        <div id="collapse3" class="panel-collapse collapse">
+          <div class="panel-body">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-1">
+                  <img src="img/microwave_map.png" class="image">
+                </div>
+                <div class="col-lg-6 order-lg-2">
+                  <div class="p-5">
+                    <h2> 16 total microwaves </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem,
+                      ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+                      <a href="https://food.berkeley.edu/foodscape/map-gallery/geographic-map/" class="btn btn-primary btn-xl rounded-pill mt-5">See Full Map</a>
+                  </div>
+                </div>
+              </div>
+              <h2> </h2>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 order-lg-1">
+        <div class="p-5">
+          <img class="img-fluid" src="img/refill_on.gif" alt="">
+        </div>
+      </div>
+      <div class="col-lg-6 order-lg-2">
+        <div class="p-5">
+          <h2 class="display-4">On-Campus Refill Stations</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem,
+            ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="panel-group">
+
+<!-- Section 1 -->
+<div class="fancy-collapse-panel">
+<div class="panel panel-default">
+<div class="panel-heading">
+  <h2 class="panel-title" style="text-align:center">
+    <a data-toggle="collapse" href="#collapse4" class="display-4">Benefits</a>
+  </h2>
+</div>
+<div id="collapse4" class="panel-collapse collapse">
+  <div class="panel-body">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 order-lg-1">
+          <img src="img/refill_benefits-01.png" class="image">
+          <div class="overlay">
+              <div class="text">Filters tap water</div>
+            </div>
+        </div>
+        <div class="col-lg-4 order-lg-3">
+          <img src="img/microwave_benefits-02.png"  class="image">
+          <div class="overlay">
+              <div class="text">No need to refill at home or buy water elsewhere</div>
+            </div>
+        </div>
+        <div class="col-lg-4 order-lg-2">
+          <img src="img/refill_benefits-02.png"  class="image">
+          <div class="overlay">
+              <div class="text">Encourages reusable water bottles rather than disposable plastic ones</div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Section 2 -->
+<div class="panel panel-default">
+<div class="panel-heading heading4">
+  <h2 class="panel-title" style="text-align:center">
+    <a data-toggle="collapse" href="#collapse5" class="display-4">Types</a>
+  </h2>
+</div>
+<div id="collapse5" class="panel-collapse collapse">
+  <div class="panel-body">
+    <div class="p-5">
+      <h2 style="text-align:center">Several types of refill stations are found on campus, including:</h2>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-3 order-lg-1">
+        <img src="img/refill_types-01.png" class="image">
+        <div class="overlay">
+            <div class="text">Refill</div>
+          </div>
+      </div>
+      <div class="col-lg-3 order-lg-2">
+        <img src="img/refill_types-02.png"  class="image">
+        <div class="overlay">
+            <div class="text">Spout</div>
+          </div>
+      </div>
+      <div class="col-lg-3 order-lg-3">
+        <img src="img/refill_types-03.png"  class="image">
+        <div class="overlay">
+            <div class="text">Dispenser</div>
+          </div>
+      </div>
+      <div class="col-lg-3 order-lg-4">
+        <img src="img/refill_types-04.png"  class="image">
+        <div class="overlay">
+            <div class="text">Filter/Oasis</div>
+          </div>
+      </div>
+    </div>
+    <div class="p-5">
+      <h2 style="text-align:center">Frequency of each type:</h2>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-12 order-lg-1">
+        <img src="img/refill_chart.png" class="image padded">
+      </div>
+    </div>
+  </div>
+    </div>
+  </div>
+
+<!-- Section 3 -->
+  <div class="panel panel-default">
+    <div class="panel-heading heading5">
+      <h2 class="panel-title" style="text-align:center">
+        <a data-toggle="collapse" href="#collapse6" class="display-4">Distribution</a>
+      </h2>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse">
+      <div class="panel-body">
+        <div class="container">
+          <div class="row align-items-center smpadded">
+            <div class="col-lg-12 order-lg-1">
+              <img src="img/refill_distr.png" class="image">
+            </div>
+          </div>
+          <div class="row align-items-center padded">
+            <div class="col-lg-2 order-lg-1">
+              <h2> East Asian Library </br> Hearst Field Annex </br> Zellerbach</h2>
+            </div>
+            <div class="col-lg-2 order-lg-2">
+              <h2>Barrows </br>
+                Cory </br>
+                Evans </br>
+                GPB </br>
+                Jacobs </br> VLSB </br> Wurster
+              </h2>
+            </div>
+            <div class="col-lg-2 order-lg-3">
+              <h2> Li Ka Shing</br> Moses</br> Sutardja Dai </br> Tolman </br>
+              </h2>
+            </div>
+            <div class="col-lg-2 order-lg-4">
+              <h2> Doe Library </br> Eshleman </br> Kroeber</br> Le Conte</br> MLK</br> Wellman</br>  Wheeler</br>
+              </h2>
+            </div>
+            <div class="col-lg-2 order-lg-5">
+              <h2> Soda </br> Birge
+              </h2>
+            </div>
+            <div class="col-lg-2 order-lg-6">
+              <h2>Campbell </br> Chou</br> Dwinelle </br> Moffit
+              </h2>
+            </div>
+          </div>
+          <h2> </h2>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
     <!--
     <header class="masthead text-center text-white">
       <div class="masthead-content">
